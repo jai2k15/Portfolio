@@ -11,7 +11,7 @@ html {
 @font-face {
     font-family: myFont;
     /* set name */
-    src: url(/Font/brasika-display-trial.otf);
+    src: url('/Font/brasika-display-trial.otf');
     /* url of the font */
 }
 
