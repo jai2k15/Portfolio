@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 html {
@@ -991,7 +991,7 @@ iframe{
         /* height: 600px; */
         /* width: 80%; */
         height: 500px;
-        margin-left: -67px;
+        margin-left: -62px;
         margin-bottom: 0;
         max-width: 149%;
         height: auto;
