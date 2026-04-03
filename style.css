@@ -990,7 +990,7 @@ iframe{
         /* height: 600px; */
         /* width: 80%; */
         height: 450px;
-        margin-left:80px;
+        margin-left:-80px;
         margin-bottom: 0;
         max-width: 149%;
         height: auto;
