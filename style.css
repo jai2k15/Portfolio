@@ -717,3 +717,192 @@ a{
     padding: 20px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
+
+
+
+
+
+
+
+/* ================= RESPONSIVE (NO DESIGN CHANGE) ================= */
+
+/* Prevent horizontal scroll */
+body {
+    overflow-x: hidden;
+}
+
+/* Make media flexible */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ================= TABLET ================= */
+@media (max-width: 1024px) {
+
+    .nav-links {
+        gap: 30px;
+    }
+
+    .pfp {
+        height: 400px;
+        left: 5%;
+    }
+
+    .textFontSize {
+        font-size: 80px;
+    }
+
+    .main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main1, .main2 {
+        width: 100%;
+    }
+
+    .pfp2 {
+        height: 700px;
+        margin: 0;
+    }
+
+    .contact {
+        position: static;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .container3 {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .experience {
+        width: 80%;
+    }
+
+    .skill {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container4 {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .container4Left,
+    .container4Right {
+        width: 100%;
+    }
+
+    .rightUpper {
+        margin-top: 0;
+        padding-left: 20px;
+    }
+
+    .rightBottom {
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
+    .container5 {
+        height: auto;
+        margin: 50px auto;
+        padding: 40px 0;
+    }
+
+    .workSample {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .card {
+        margin: 20px;
+    }
+}
+
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+
+    .pfp {
+        position: static;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .textFontSize {
+        font-size: 50px;
+    }
+
+    .textContainer {
+        margin-top: 0;
+    }
+
+    .main1Text {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .main1Text2 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .pfp2 {
+        height: 400px;
+    }
+
+    .experience {
+        width: 95%;
+    }
+
+    .exp1 {
+        width: 90%;
+    }
+
+    .buttons {
+        width: 100%;
+        padding-left: 10px;
+        justify-content: center;
+    }
+
+    .language {
+        gap: 20px;
+    }
+
+    .interest {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
+}
