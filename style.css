@@ -982,7 +982,7 @@ iframe{
     .main2 {
         /* padding: 0;
         margin: 0; */
-        background: blue;
+        background: green;
         height: 450px;
     }
 
@@ -990,7 +990,7 @@ iframe{
         /* height: 600px; */
         /* width: 80%; */
         height: 450px;
-        margin-left: -70px;
+        margin-left:80px;
         margin-bottom: 0;
         max-width: 149%;
         height: auto;
