@@ -979,7 +979,7 @@ iframe {
     .main {
         margin-top: 200px;
         /* background: green; */
-        /* display: none; */
+         display: none;
     }
 
     .main1 {
