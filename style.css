@@ -1083,7 +1083,7 @@ iframe {
         /* gap: 10px; */
         margin: 0;
         gap: 11px;
-        margin-top: -83px;
+        margin-top: -146px;
     }
 
     /* textContainer{
@@ -1098,7 +1098,7 @@ iframe {
 
     .textContainerMobile {
         display: flex;
-        margin-top: -329px;
+        margin-top: -400px;
     }
 
     .logo {
