@@ -14,7 +14,12 @@ html {
     src: url(/Font/brasika-display-trial.otf);
     /* url of the font */
 }
-
+@font-face {
+    font-family: logoFont;
+    /* set name */
+    src: url(/Font/font2.otf);
+    /* url of the font */
+}
 .mainFont {
     font-family: myFont;
 }
@@ -30,7 +35,7 @@ html {
 }
 
 .logo {
-    font-family: 'FONTSPRING DEMO - Ragmont';
+    font-family: logoFont;
     font-size: 50px;
 
 }
@@ -931,7 +936,9 @@ iframe {
         gap: 10px;
         height: auto;
     }
-
+.container{
+    height:90vh;
+}
     .nav-links {
         flex-wrap: wrap;
         gap: 15px;
@@ -1137,7 +1144,7 @@ iframe {
 
     .pfp {
         position: static;
-        height: 320px;
+        height: 300px;
         margin-top: 60px;
     }
 
