@@ -959,6 +959,12 @@ iframe {
         font-size: 20px;
     }
 
+    
+    #textFont {
+        /*font-size: 44px;*/
+        line-height: 110px;
+    }
+    
     .container2 {
         /* margin-top: -10px; */
         z-index: 10;
