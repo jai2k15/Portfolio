@@ -1219,7 +1219,7 @@ iframe {
     .workSample {
         height: auto;
         margin-top: -419px;
-        display: none;
+        max-width: 90%;
     }
 
     iframe {
