@@ -935,8 +935,28 @@ iframe {
         flex-direction: column;
         gap: 10px;
         height: auto;
-        pointer-events: none;
+        
     }
+
+
+
+/*taps fix*/
+    
+.navbar a {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+.navbar a:focus,
+.navbar a:active {
+  background: transparent;
+  outline: none;
+}
+
+
+
+
+    
 .container{
     height:95vh;
 }
