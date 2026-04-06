@@ -1106,6 +1106,7 @@ iframe {
     .textContainerMobile {
         display: flex;
         margin-top: -400px;
+        pointer-events: none;
     }
 
     .logo {
