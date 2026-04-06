@@ -935,9 +935,10 @@ iframe {
         flex-direction: column;
         gap: 10px;
         height: auto;
+        pointer-events: none;
     }
 .container{
-    height:90vh;
+    height:95vh;
 }
     .nav-links {
         flex-wrap: wrap;
