@@ -935,6 +935,7 @@ iframe {
         flex-direction: column;
         gap: 10px;
         height: auto;
+        cursor: none;
         
     }
 
