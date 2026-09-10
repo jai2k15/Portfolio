@@ -447,6 +447,28 @@ a {
     justify-content: space-evenly;
 }
 
+
+.iconSkill1 {
+    height: 60px;
+    margin-right: -7px;
+    margin-left: -40px;
+    /* filter: saturate(0); */
+
+}
+
+.softwereIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .iconSkill:() */
+.iconSkill {
+    height: 35px;
+    margin-left: 5px;
+}
+
+
 .softwereskillsText {
     font-family: myFont;
     font-size: 1.5rem;
